@@ -1,9 +1,22 @@
 html{
     height: 100%;
 }
-
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: url(Images/TUe.png);
     height:100%;
     background-size: cover;
+}
+.logo{
+    opacity: 1;
+}
+.menu{
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+}
+.menu.background{
+    opacity: 0.5;
 }
