@@ -2,3 +2,6 @@
     background-image: url(Images/TUe.png);
     background-size: cover;
 }
+.navButton{
+    border: 5px solid white;
+}
