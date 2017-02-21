@@ -1,7 +1,9 @@
-#container1{
-    background-image: url(Images/TUe.png);
-    background-size: cover;
+html{
+    height: 100%;
 }
-.navButton{
-    border: 5px solid white;
+
+body{
+    background-image: url(Images/TUe.png);
+    height:100%;
+    background-size: cover;
 }
