@@ -2,6 +2,10 @@ html{
     height: 100%;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-image: url(Images/TUe.png);
     height:100%;
@@ -31,4 +35,15 @@ li{
 .text_header{
     position: relative;
     font-size: 30px;
+
+.logo{
+    opacity: 1;
+}
+.menu{
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+}
+.menu.background{
+    opacity: 0.5;
 }
