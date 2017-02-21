@@ -35,15 +35,39 @@ li{
 .text_header{
     position: relative;
     font-size: 30px;
+}
 
 .logo{
-    opacity: 1;
+    border-right-color: White;
+    margin: 5px;
+    border-right-style: solid;
+    width: 30px;
 }
 .menu{
     list-style: none;
     display: inline-block;
     position: absolute;
 }
-.menu.background{
-    opacity: 0.5;
+.NaviBar{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 999;
+}
+.NaviBar li {
+    display: inline-block;
+    color: slategray;
+    text-align: left;
+    font-family: sans-serif;
+}
+.logo{
+    width: 50px;
+    margin-right: 0px;
+    border-right-style: solid;
+    border-right-color: slategrey;
+}
+.subNavi{
+    margin-right: 10px;
+    top: 100px;
 }
