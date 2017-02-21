@@ -1,3 +1,3 @@
 # DBLHypermedia
-This is the project for Group 19
-fikfikgifdkgfi
+This is the DBL Hypermedia project for Group 19 TUe
+
