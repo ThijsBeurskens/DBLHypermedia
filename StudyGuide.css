@@ -13,7 +13,7 @@ html{
 }
 
 body{
-    background-image: url(Images/TUe.png);
+    background-image: url(Images/TUe-dark.png);
     height:100%;
     background-size: cover;
 }
@@ -86,17 +86,28 @@ li2{
 }
 .NaviBar li {
     display: inline-block;
-    color: slategray;
+    color: ;
     text-align: left;
     font-family: sans-serif;
+}
+a.SubLink:hover {
+    background: lightgrey;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+a.SubLink{
+    text-decoration:none;
+    text-color: white;
 }
 .logo{
     width: 50px;
     margin-right: 0px;
     border-right-style: solid;
-    border-right-color: slategrey;
+    border-right-color: darkslategray;
 }
 .subNavi{
     margin-right: 10px;
     top: 100px;
+    font-size: 13pt;
+    font-family: "Times New Roman", sans-serif;
 }
