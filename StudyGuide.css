@@ -54,6 +54,7 @@ li2{
 }
 
 .text_header{
+    color: white;
     position: relative;
     font-size: 30px;
 }
@@ -81,6 +82,15 @@ li2{
     color: ;
     text-align: left;
     font-family: sans-serif;
+}
+a.SubLink:hover {
+    background: lightgrey;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+a.SubLink{
+    text-decoration:none;
+    text-color: white;
 }
 .logo{
     width: 50px;
