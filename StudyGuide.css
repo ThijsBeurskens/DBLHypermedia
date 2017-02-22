@@ -59,12 +59,6 @@ li2{
     font-size: 30px;
 }
 
-.logo{
-    border-right-color: White;
-    margin: 5px;
-    border-right-style: solid;
-    width: 30px;
-}
 .menu{
     list-style: none;
     display: inline-block;
@@ -72,35 +66,47 @@ li2{
 }
 .NaviBar{
     height: auto;
-    width: 100%;
+    width: 95%;
     position: fixed;
-    left: 0;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     z-index: 999;
 }
 .NaviBar li {
     display: inline-block;
-    color: ;
-    text-align: left;
+    text-align: center;
     font-family: sans-serif;
 }
+.NaviL{
+    width: 65%;
+}
+.NaviR{
+    float: right;
+    width: 35%;
+}
 a.SubLink:hover {
-    background: lightgrey;
-    text-decoration: underline;
-    text-decoration-color: blue;
+    text-decoration: none;
+    background-color: rgba(255,255,255, 0.5);
+    color: darkslategray;
 }
 a.SubLink{
     text-decoration:none;
-    text-color: white;
+    color: white;
+    padding: 10pt;
 }
 .logo{
-    width: 50px;
-    margin-right: 0px;
-    border-right-style: solid;
-    border-right-color: darkslategray;
+    margin-right: 10pt;
+    width: 60px;
+    float: left;
 }
-.subNavi{
-    margin-right: 10px;
+.subNavi_l, .subNavi_r{
     top: 100px;
     font-size: 13pt;
-    font-family: "Times New Roman", sans-serif;
+    font-family: "CaviarDreams", sans-serif;
+}
+.subNavi_r{
+    float: right;
+}
+.subNavi_l{
+    float: left;
 }
