@@ -13,13 +13,13 @@ body{
 }
 
 .StudyBut{
-    background-color:  rgba(255, 255, 255, 0.9);
+    background-color: rgba(255,255,255, 0.5);
     color: darkslategray;
     font-size: 20px;
     padding: 14px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: 5px solid;
+    border: 1px solid #fff;
 }
 
 .StudyButs{
