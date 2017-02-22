@@ -26,12 +26,19 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     border: thin solid #fff;
+    border-radius: 0px;
+    width: 20vw;
+    height: 15vw;
+    max-height: 50px;
+    min-height: 10px;
+    min-width: 150px;
+    max-width: 200px;
 }
 
 .StudyButs{
     text-align: center;
     position: relative;
-    top: 30%;
+    top: 35%;
 }
 
 .but-left-curve{
@@ -49,11 +56,12 @@ li{
 }
 
 li2{
-    margin-right: -2px;
-    margin-left: -2px;
+    margin-right: -3px;
+    margin-left: -3px;
 }
 
 .text_header{
+    color: white;
     position: relative;
     font-size: 30px;
 }
