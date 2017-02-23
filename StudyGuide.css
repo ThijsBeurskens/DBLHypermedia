@@ -96,6 +96,7 @@ li2{
     margin-left: 2.5%;
     margin-right: 2.5%;
     z-index: 999;
+    margin-top: 5px;
 }
 .NaviBar li {
     display: inline-block;
