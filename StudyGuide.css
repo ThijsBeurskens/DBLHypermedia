@@ -64,11 +64,6 @@ li2{
     font-size: 4vw;
 }
 
-.menu{
-    list-style: none;
-    display: inline-block;
-    position: absolute;
-}
 
 .page1{
     position: absolute;
@@ -109,37 +104,6 @@ li2{
     background-size: cover;
 }
 
-.NaviBar{
-    height: auto;
-    width: 95%;
-    position: fixed;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    z-index: 999;
-    margin-top: 5px;
-}
-.NaviBar li {
-    display: inline-block;
-    text-align: center;
-    font-family: sans-serif;
-}
-.NaviL{
-    width: 65%;
-}
-.NaviR{
-    float: right;
-    width: 35%;
-}
-a.SubLink:hover {
-    text-decoration: none;
-    background-color: rgba(255,255,255, 0.5);
-    color: darkslategray;
-}
-a.SubLink{
-    text-decoration:none;
-    color: white;
-    padding: 10pt;
-}
 .logo{
     margin-right: 10pt;
     width: 60px;
@@ -169,6 +133,25 @@ a.SubLink{
 .studyheader{
     color: white;
     float: center;
+    margin-top: 30pt;
+}
+
+.nav.navbar-nav li a{
+    color: White;
+    font-size: 14pt;
+}
+.navbar-brand a{
+    color: White;
+}
+.nav.navbar-nav li a:hover{
+    background-color: rgba(255,255,255, 0.5);
+    font-size: 14pt;
+}
+.navbar-brand {
+    color: white;
+}
+.navbar{
+    background-color: rgba(50, 50, 50, 0.8);
 }
 
 dd{
