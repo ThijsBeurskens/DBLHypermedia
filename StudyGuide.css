@@ -153,3 +153,7 @@ li2{
 .navbar{
     background-color: rgba(35, 35, 50, 0.9);
 }
+
+dd{
+    color: white;
+}
