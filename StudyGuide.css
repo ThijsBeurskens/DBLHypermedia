@@ -64,11 +64,6 @@ li2{
     font-size: 4vw;
 }
 
-.menu{
-    list-style: none;
-    display: inline-block;
-    position: absolute;
-}
 
 .page1{
     position: absolute;
@@ -84,41 +79,31 @@ li2{
     top: 100%;
     background: none;
     width: 100%;
-    height: 100%;
+    height: 120%;
     background-image: url(Images/blueprint.jpg);
     background-size: cover;
 }
 
-.NaviBar{
-    height: auto;
-    width: 95%;
-    position: fixed;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    z-index: 999;
+.page3{
+    position: absolute;
+    top: 220%;
+    background: none;
+    width: 100%;
+    height: 120%;
+    background-image: url(Images/paard.png);
+    background-size: cover;
 }
-.NaviBar li {
-    display: inline-block;
-    text-align: center;
-    font-family: sans-serif;
+
+.page4{
+    position: absolute;
+    top: 330%;
+    background: none;
+    width: 100%;
+    height: 120%;
+    background-image: url(Images/blueprint.jpg);
+    background-size: cover;
 }
-.NaviL{
-    width: 65%;
-}
-.NaviR{
-    float: right;
-    width: 35%;
-}
-a.SubLink:hover {
-    text-decoration: none;
-    background-color: rgba(255,255,255, 0.5);
-    color: darkslategray;
-}
-a.SubLink{
-    text-decoration:none;
-    color: white;
-    padding: 10pt;
-}
+
 .logo{
     margin-right: 10pt;
     width: 60px;
@@ -135,18 +120,47 @@ a.SubLink{
 .subNavi_l{
     float: left;
 }
-li3{
-    border: 4px solid grey;
-    padding: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-    text-align: center;
+
+.programbuts{
+    border: 0.5vw solid grey;
     background-color: rgba(255,255,255, 0.5);
-    font-size: 2rem;
-    margin-top: 20px;
+    margin-top: 1vw;
+    padding: 2vw;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
-#studyheader{
+.studyheader{
     color: white;
     float: center;
+    margin-top: 30pt;
+}
+
+.nav.navbar-nav li a{
+    color: White;
+    font-size: 14pt;
+}
+.navbar-brand a{
+    color: White;
+}
+.nav.navbar-nav li a:hover{
+    background-color: rgba(255,255,255, 0.5);
+    font-size: 14pt;
+}
+.navbar-brand {
+    color: white;
+}
+.navbar{
+    background-color: rgba(35, 35, 50, 0.9);
+}
+
+dd{
+    color: white;
+}
+.up{
+    float: right;
+    width: 50px;
+    height: 50px;
+    background-image: url(Images/ButTop.png);
+    background-size: cover;
 }
