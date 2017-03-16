@@ -1,63 +1,97 @@
-*{
-    box-sizing: border-box;
-    font-family: "CaviarDreams";
-}
+    *{
+        box-sizing: border-box;
+        font-family: "CaviarDreams";
 
-@font-face {
-    font-family: 'CaviarDreams';
-    src: url('Fonts/CaviarDreams.ttf');
-}
+    }
 
-.nav.navbar-nav li a{
-    color: White;
-    font-size: 14pt;
-}
-.navbar-brand a{
-    color: White;
-}
-.navbar{
-    background-color: rgba(35, 35, 50, 0.9);
-    position: relative;
-    margin-bottom: 0;
+    @font-face {
+        font-family: 'CaviarDreams';
+        src: url('Fonts/CaviarDreams.ttf');
+    }
 
-}
-.nav.navbar-nav li a:hover{
-    background-color: rgba(255,255,255, 0.5);
-    font-size: 14pt;
-}
-.header{
-    background-color: rgb(34, 142, 189);
-}
-.hid{
-    float: right;
-    background-color: rgb(34, 142, 189);
-    border: none;
-}
-.backToBachelor{
-    background-color: rgb(0, 205, 255);
-    height: 25px;
+    .nav.navbar-nav li a{
+        color: White;
+        font-size: 14pt;
+    }
+    .navbar-brand a{
+        color: White;
+    }
+    .navbar{
+        background-color: rgba(35, 35, 50, 0.9);
+        position: relative;
+        margin-bottom: 0;
 
-}
-.myClassName a{
-    color: White;
+    }
+    .nav.navbar-nav li a:hover{
+        background-color: rgba(255,255,255, 0.5);
+        font-size: 14pt;
+    }
+    .header{
+        background-color: rgb(34, 142, 189);
+    }
+    .hid{
+        float: right;
+        background-color: rgb(34, 142, 189);
+        border: none;
+    }
+    .backToBachelor{
+        background-color: rgb(0, 205, 255);
+        height: 25px;
+
+    }
+    .myClassName a{
+        color: White;
+        font-weight: bold;
+        font-size: 13pt;
+        margin-left: 50pt;
+    }
+    .myClassName a:hover{
+        text-decoration: none;
+    }
+    .PT{
+        position: absolute;
+        background: none;
+        width: 100%;
+        height: 100%;
+        background-image: url(Images/PTbackground2.png);
+        background-size: 110em;
+    }
+    .title{
+        float: right;
+        width: 100%;
+        margin-right: 15%
+    }
+    .subtitle{
+        float: right;
+        width: 100%;
+    }
+    h1, h2{
+        float: right;
+        font-weight: bold;
+        color: darkblue;
+        size:
+    }
+
+    .vertical-menu {
+        width: 100px;
+        margin-top: 200pt;
+        margin-left: 50pt;
+        padding-bottom: 80pt;
+    }
+    .vertical-menu a {
+        color: black;
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 13pt;
+        width: 100pt;
+    }
+    .vertical-menu a:hover{
+        text-decoration: underline;
+    }
+    .vertical-menu a.active{
+        color: rgb(0, 204, 255);
+    }
+.main{
     font-weight: bold;
-    font-size: 13pt;
-    margin-left: 50pt;
-}
-.myClassName a:hover{
-    text-decoration: none;
-}
-.PT{
-    position: absolute;
-    background: none;
-    width: 100%;
-    height: 100%;
-    background-image: url(Images/PTbackground2.png);
-    background-size: cover;
-}
-.head{
-    float: right;
-}
-.dropdown-menu{
-    background-color: rgba(35, 35, 50, 0.9);
 }
