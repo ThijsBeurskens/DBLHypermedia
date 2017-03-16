@@ -58,3 +58,6 @@
 .head{
     float: right;
 }
+.dropdown-menu{
+    background-color: rgba(35, 35, 50, 0.9);
+}
