@@ -1,10 +1,13 @@
 $(function() {
-   $('.hover').hover( function(ev){
-       var target = $(ev.target);
+   $('.hover').hover( function(){
+       var target = $(this);
+       var id = target.attr('target');
        var img = target.attr('src');
-       document.getElementById("imageid").src=img;
+       document.getElementById(id).src=img;
    },
    function(){
-       document.getElementById("imageid").src="";
+       var target = $(this);
+       var id = target.attr('target');
+       document.getElementById(id).src="";
    });
 });
