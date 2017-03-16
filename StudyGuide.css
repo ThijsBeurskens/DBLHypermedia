@@ -197,3 +197,7 @@ dd{
     background-image: url(Images/ButTop.png);
     background-size: cover;
 }
+
+#PThov:hover ~ #bachelor {
+    background-color: #ccc;
+}
