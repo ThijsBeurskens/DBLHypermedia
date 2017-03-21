@@ -18,7 +18,7 @@
     }
     .navbar{
         background-color: rgba(35, 35, 50, 0.9);
-        position: relative;
+        position: fixed;
         margin-bottom: 0;
 
     }
@@ -28,17 +28,25 @@
     }
     .header{
         background-color: rgb(34, 142, 189);
+        margin-top: 38pt;
     }
     .hid{
         float: right;
-        background-color: rgb(34, 142, 189);
+        background-color: rgb(0, 205, 255);
         border: none;
+        height: 25px;
+        font-size: 12pt;
     }
     .backToBachelor{
         background-color: rgb(0, 205, 255);
         height: 25px;
 
     }
+    .between{
+        background-color: rgb(34, 142, 189);
+        height: 50px;
+
+}
     .myClassName a{
         color: White;
         font-weight: bold;
