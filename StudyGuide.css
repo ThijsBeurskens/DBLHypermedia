@@ -68,6 +68,13 @@ h5{
     font-size: 4vw;
 }
 
+.bachelor_image{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 10%;
+    z-index: 1;
+}
 
 .page1{
     position: absolute;
@@ -76,6 +83,7 @@ h5{
     height: 100%;
     background-image: url(Images/TUe-dark.png);
     background-size: cover;
+      z-index: 2;
 }
 
 .page2{
@@ -86,6 +94,7 @@ h5{
     height: 120%;
     background-image: url(Images/EmptyRaster-InnerShadow.png);
     background-size: cover;
+    z-index: 2;
 }
 
 .page3{
@@ -96,6 +105,7 @@ h5{
     height: 120%;
     background-image: url(Images/EmptyRaster-NoInnerShadow-Green.png);
     background-size: cover;
+    z-index: 2;
 }
 
 .page4{
@@ -106,6 +116,7 @@ h5{
     height: 120%;
     background-image: url(Images/EmptyRaster-InnerShadow-Magenta.png);
     background-size: cover;
+    z-index: 2;
 }
 
 .footer {
@@ -151,19 +162,21 @@ lif {
     color: black;
     margin-left: 50px;
     margin-bottom: 10px;
+    z-index: 999;
 }
 
 .programbuts:hover{
     border: 1px solid black;
     background-color: rgba(10, 16, 40, 0.5);
     color: white;
-
 }
 
 .studyheader{
     color: white;
     float: center;
     margin-top: 30pt;
+    z-index: 999;
+    position: relative;
 }
 
 .nav.navbar-nav li a{
