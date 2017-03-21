@@ -5,6 +5,6 @@ $('.hover').textfill({
     widthOnly: false,
     explicitWidth: null,
     explicitHeight: null,
-    debug: true,
+    debug: false,
     changeLineHeight: false
 });
