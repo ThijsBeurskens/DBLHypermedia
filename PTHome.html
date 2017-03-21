@@ -35,7 +35,8 @@
         </div>
     </nav>
 
-
+    <div class="between">
+    </div>
     <div id="hideContainer" class="header container-fluid collapse in">
         <div class="row">
             <div id="hideH" class="myClassName">
@@ -45,8 +46,6 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="between">
-            </div>
             <div class="myClassName backToBachelor">
                 <a href="StudyGuide.html#Bachelor">&#x21E6; Back to Bachelor Program</a>
                 <button type="button" class="hid btn btn-info" data-toggle="collapse" data-target="#hideContainer">Hide</button>
@@ -57,33 +56,65 @@
         <div class="title">
              <h1 class="head">Psychology & Technology</h1>
                 <div class="subtitle">
-                    <h2>Basic Course</h2>
+                    <h2>Curriculum</h2>
                 </div>
         </div>
-        <div class="vertical-menu col-xs-6 col-md-4">
-           <a href="PTHome.html" class="main">Curriculum</a>
-           <a href="PTHome.html" class="active">> Basic Course</a>
-           <a href="PTElectives">> Electives / Packages</a>
-           <a href="PTCoaching.html" class="main">Coaching</a>
-           <a href="PTFinalProject.html" class="main">Final Project</a>
-           <a href="PTEnrollment.html">> Enrollment</a>
-           <a href="PTTimeline.html">> Timeline</a>
-           <a href="PTExamination.html" class="main">Examination Schedule</a>
-           <a href="PTGraduation.html" class="main">Graduation</a>
-           <a href="PTMasters.html" class="main">Masters</a>
-           <a href="PTRegulations.html" class="main">Regulations</a>
-           <a href="PTForms.html">> Forms</a>
-           <a href="PTAdvisors.html" class="main">Advisors and tutors</a>
-           <a href="PTHonors.html" class="main">Honors Academy</a>
-        </div>
-        <div class="information col-xs-6 col-md-4">
-            <p>
-
-            </p>
+        <div id="main" class="information row">
+            <div id="mySidenav" class="vertical-menu-2 col-xs-3 visible-xs">
+                <span style="font-size:30px;cursor:pointer" class="open" onclick="openNav()">&#9776; open</span>
+                <div id="sideMenu">
+                    <a href="javascript:void(0)" onclick="closeNav()" ><div class="closebtn">&times;</div></a>
+                    <a href="PTHome.html" class="main active">Curriculum</a>
+                    <a href="PTHome.html" class="">> Basic Courses</a>
+                    <a href="PTElectives">> Electives / Packages</a>
+                    <a href="PTCoaching.html" class="main">Coaching</a>
+                    <a href="PTFinalProject.html" class="main">Final Project</a>
+                    <a href="PTEnrollment.html">> Enrollment</a>
+                    <a href="PTTimeline.html">> Timeline</a>
+                    <a href="PTExamination.html" class="main">Examination Schedule</a>
+                    <a href="PTGraduation.html" class="main">Graduation</a>
+                    <a href="PTMasters.html" class="main">Masters</a>
+                    <a href="PTRegulations.html" class="main">Regulations</a>
+                    <a href="PTForms.html">> Forms</a>
+                    <a href="PTAdvisors.html" class="main">Advisors and tutors</a>
+                    <a href="PTHonors.html" class="main">Honors Academy</a>
+                </div>
+            </div>
+            <div class="vertical-menu col-xs-6 col-md-4 hidden-xs">
+               <a href="PTHome.html" class="main active">Curriculum</a>
+               <a href="PTHome.html" class="">> Basic Courses</a>
+               <a href="PTElectives">> Electives / Packages</a>
+               <a href="PTCoaching.html" class="main">Coaching</a>
+               <a href="PTFinalProject.html" class="main">Final Project</a>
+               <a href="PTEnrollment.html">> Enrollment</a>
+               <a href="PTTimeline.html">> Timeline</a>
+               <a href="PTExamination.html" class="main">Examination Schedule</a>
+               <a href="PTGraduation.html" class="main">Graduation</a>
+               <a href="PTMasters.html" class="main">Masters</a>
+               <a href="PTRegulations.html" class="main">Regulations</a>
+               <a href="PTForms.html">> Forms</a>
+               <a href="PTAdvisors.html" class="main">Advisors and tutors</a>
+               <a href="PTHonors.html" class="main">Honors Academy</a>
+            </div>
+            <div class="col-xs-7 col-md-8">
+                <p>
+                    The common program of the Major Psychology & Technology for year groups 2016 is as follows:
+                </p>
+            </div>
         </div>
 
     </div>
 
+    <script>
+    function openNav() {
+        document.getElementById("sideMenu").style.width = "150px";
+        document.getElementById("main").style.marginLeft = "50px";
+    }
 
+    function closeNav() {
+        document.getElementById("sideMenu").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
 </body>
 </html>

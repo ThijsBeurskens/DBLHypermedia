@@ -26,10 +26,6 @@
         background-color: rgba(255,255,255, 0.5);
         font-size: 14pt;
     }
-    .header{
-        background-color: rgb(34, 142, 189);
-        margin-top: 38pt;
-    }
     .hid{
         float: right;
         background-color: rgb(0, 205, 255);
@@ -43,10 +39,13 @@
 
     }
     .between{
-        background-color: rgb(34, 142, 189);
+        background-color: rgb(0,0,0);
         height: 50px;
 
-}
+    }
+    .header{
+        padding: 0pt;
+    }
     .myClassName a{
         color: White;
         font-weight: bold;
@@ -82,7 +81,6 @@
 
     .vertical-menu {
         width: 200px;
-        margin-top: 100pt;
         margin-left: 50pt;
         padding-bottom: 80pt;
     }
@@ -93,6 +91,33 @@
         text-decoration: none;
         font-size: 13pt;
         width: 100pt;
+        }
+    #sideMenu {
+        width: 0pt;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        }
+    #sideMenu a{
+        color: white;
+        background-color: black;
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 13pt;
+        width: 100pt;
+    }
+
+    .closebtn {
+        color: black;
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 20pt;
+        width: 100pt;
     }
     .vertical-menu a:hover{
         text-decoration: underline;
@@ -102,4 +127,18 @@
     }
 .main{
     font-weight: bold;
+}
+.information{
+    margin-top: 140pt;
+}
+.closebtn {
+    font-size: 36pt;
+    margin-left: 70pt;
+    color: gray;
+    width: 30px;
+    height: 40px;
+}
+.closebtn:hover{
+    color: black;
+    text-decoration: none;
 }
