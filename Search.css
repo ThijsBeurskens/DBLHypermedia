@@ -83,6 +83,14 @@
 }
 /*end search bar*/
 
+h1{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 3vw;
+}
+
     .myClassName a{
         color: White;
         font-weight: bold;
