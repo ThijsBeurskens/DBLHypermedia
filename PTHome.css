@@ -16,16 +16,9 @@
 
 .nav.navbar-nav li input {
     width: 25px;
-    height: 25px;
-    margin-top: 14px;
-    margin-left: 11px;
-    margin-right: 14px;
-}
-
-.jj:hover{ /*hover for search icon*/
-    width: 50px;
-    height: 50px;
-    background-color: rgba(255,255,255, 0.5);
+    height: 18px;
+    margin-right: 0px;
+    margin-left: 1px;
 }
 
     .navbar-brand a{
