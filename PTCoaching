@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="PTHome.css" type="text/css" rel="stylesheet">
+    <title>Psychology & Technology</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="navFont" >
+        <div class="container-fluid">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="StudyGuide.html" class="navbar-brand">TU/e</a>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"> Majors</a></li>
+                        </ul></li>
+                    <li><a href="#">Studying</a></li>
+                    <li><a href="#">Broadening</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://www.tue.nl/">Website</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="hideContainer" class="header container-fluid collapse in">
+        <div class="row">
+            <div id="hideH" class="myClassName">
+                <img src="Images/HeaderPT.png" height="auto" width="100%">
+                <button type="button" class="hid btn btn-info" data-toggle="collapse" data-target="#hideContainer">Hide</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="myClassName backToBachelor">
+                <a href="StudyGuide.html#Bachelor">&#x21E6; Back to Bachelor Program</a>
+            </div>
+        </div>
+    </div>
+    <div class="container PT ">
+        <div class="title">
+             <h1 class="head">Psychology & Technology</h1>
+                <div class="subtitle">
+                    <h2>Basic Course</h2>
+                </div>
+        </div>
+        <div class="vertical-menu">
+           <a href="#" class="main">Curriculum</a>
+           <a href="#" class="active">> Basic Course</a>
+           <a href="#">> Electives / Packages</a>
+           <a href="#" class="main">Coaching</a>
+           <a href="#" class="main">Final Project</a>
+           <a href="#">> Enrollment</a>
+           <a href="#">> Timeline</a>
+           <a href="#" class="main">Examination Schedule</a>
+           <a href="#" class="main">Graduation</a>
+           <a href="#" class="main">Masters</a>
+           <a href="#" class="main">Regulations</a>
+           <a href="#">> Forms</a>
+           <a href="#" class="main">Advisors and tutors</a>
+           <a href="#" class="main">Honors Academy</a>
+        </div>
+        <div class="information">
+        a
+        </div>
+
+    </div>
+
+
+</body>
+</html>
