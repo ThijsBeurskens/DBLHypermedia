@@ -8,6 +8,6 @@ $(function() {
    function(){
        var target = $(this);
        var id = target.attr('target');
-       document.getElementById(id).src="";
+       document.getElementById(id).src="Images/none.png";
    });
 });
