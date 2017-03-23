@@ -46,10 +46,15 @@
 /*search bar*/
 #custom-search-input{
     padding: 3px;
-    border: solid 1px #E4E4E4;
+    border: solid 1px #808080;
     border-radius: 6px;
     background-color: #fff;
-    position: relative;
+    width: 75%;
+    max-width: 800px;
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #custom-search-input input{
