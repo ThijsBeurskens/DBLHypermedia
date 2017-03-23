@@ -3,7 +3,7 @@ $('.hover').textfill({
         maxFontPixels: 100,
         innerTag: 'span',
         widthOnly: false,
-        explicitWidth: window.getComputedStyle(document.getElementByClass("hover"), null).getPropertyValue("width"),
+        explicitWidth: window.getComputedStyle(this, null).getPropertyValue("width"),
         explicitHeight: null,
         debug: false,
         changeLineHeight: false

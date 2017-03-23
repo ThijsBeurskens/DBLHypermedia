@@ -83,7 +83,7 @@ h5{
     height: 100%;
     background-image: url(Images/TUe-dark.png);
     background-size: cover;
-    z-index: 2;
+    z-index: 3;
 }
 
 .page2{
@@ -156,22 +156,25 @@ lif {
     top: 100px;
     font-size: 13pt;
     font-family: "CaviarDreams", sans-serif;
+    z-index: 999;
 }
 .subNavi_r{
     float: right;
+     z-index: 999;
 }
 .subNavi_l{
     float: left;
+     z-index: 999;
 }
 
 .programbuts{
+    border-radius: 0px;
     border: 1px solid white;
     background-color: rgba(200, 200, 200, 0.5);
-    color: black;
+    color: white;
     margin-left: 50px;
     margin-bottom: 10px;
     z-index: 999;
-    height: 5em;
 }
 
 .right{
