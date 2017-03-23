@@ -1,5 +1,4 @@
-$(window).on("load, resize", function() {
-    $('.hover').textfill({
+$('.hover').textfill({
         minFontPixels: 2,
         maxFontPixels: 100,
         innerTag: 'span',
@@ -9,4 +8,4 @@ $(window).on("load, resize", function() {
         debug: false,
         changeLineHeight: false
     });
-});
+
