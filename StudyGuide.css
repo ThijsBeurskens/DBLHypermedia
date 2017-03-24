@@ -83,7 +83,7 @@ h5{
     height: 100%;
     background-image: url(Images/TUe-dark.png);
     background-size: cover;
-    z-index: 2;
+    z-index: 3;
 }
 
 .page2{
@@ -103,14 +103,14 @@ h5{
     background: none;
     width: 100%;
     height: 120%;
-    background-image: url(Images/EmptyRaster-NoInnerShadow-Green.png);
+    background-image: url(Images/EmptyRaster-InnerShadow-Green.png);
     background-size: cover;
     z-index: 2;
 }
 
 .page4{
     position: absolute;
-    top: 330%;
+    top: 340%;
     background: none;
     width: 100%;
     height: 120%;
@@ -121,7 +121,7 @@ h5{
 
 .footer {
     position: absolute;
-    top: 90%;
+    top: 100%;
     width: 100%;
     height: 13%;
     background-color: rgba(35, 35, 50, 1.0);
@@ -156,23 +156,30 @@ lif {
     top: 100px;
     font-size: 13pt;
     font-family: "CaviarDreams", sans-serif;
+    z-index: 999;
 }
 .subNavi_r{
     float: right;
+     z-index: 999;
 }
 .subNavi_l{
     float: left;
+     z-index: 999;
 }
 
 .programbuts{
+    border-radius: 0px;
     border: 1px solid white;
     background-color: rgba(200, 200, 200, 0.5);
-    color: black;
+    color: white;
     margin-left: 50px;
     margin-bottom: 10px;
     z-index: 999;
 }
 
+.right{
+    float: right;
+}
 .programbuts:hover{
     border: 1px solid black;
     background-color: rgba(10, 16, 40, 0.5);
@@ -202,16 +209,9 @@ lif {
 
 .nav.navbar-nav li input {
     width: 25px;
-    height: 25px;
-    margin-top: 14px;
-    margin-left: 11px;
-    margin-right: 14px;
-}
-
-.jj:hover{ /*hover for search icon*/
-    width: 50px;
-    height: 50px;
-    background-color: rgba(255,255,255, 0.5);
+    height: 18px;
+    margin-right: 0px;
+    margin-left: 1px;
 }
 
 .navbar-brand {
@@ -228,12 +228,12 @@ dd{
 .scrollup {
     width: 60px;
     height: 60px;
-    position: relative;
+    position: absolute;
     display: block;
     border-radius: 100%;
     float: right;
-    right: 10em;
-    top: 159px;
+    right: 10%;
+    top: 80%;
     z-index: 2;
 }
 
