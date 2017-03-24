@@ -74,8 +74,8 @@
         background: none;
         width: 100%;
         height: 100%;
-        background-image: url(Images/PTbackground2.png);
-        background-size: 110em;
+        background-image: url(Images/PTBackgroundNew.png);
+        background-size: 100%;
     }
     .title{
         float: right;
@@ -157,11 +157,21 @@
     p{
         font-size: 14pt;
     }
+    .contact-button{
+    float: right;
+    }
+    #maintext{
+        transition: 1s;
+        margin-left: 40pt;
+    }
 }
 
 
 /*Add to small size:
 h1, h2: font-size: 23p;
 p: font-size: 12pt?
+curriculum picture: width:height: 100(?)%;
+maintext: margin-left: 0
 */
+
 
