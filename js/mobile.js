@@ -5,7 +5,6 @@ $(window).on('load, resize', function mobileViewUpdate() {
             if($(this).hasClass("right")){
                 $(this).removeClass("right").addClass("r");
             }
-            $(this).css("height", 100px);
         } else {
             if($(this).hasClass("r")){
                 $(this).addClass("right").removeClass("r");
@@ -26,6 +25,34 @@ $(window).on('load, resize', function mobileViewUpdate() {
             }
             if($(this).hasClass("r")){
                 $(this).addClass("but-right-curve").removeClass("r");
+            }
+        }
+    });
+
+    var largeScreen = "col-md-4";
+    var mediumScreen = "col-sm-4";
+    var smallScreen = "col-xs-4";
+
+    $(".st").each(function(){
+         if (viewportWidth < 992 && viewportWidth >= 767) {
+            if($(this).hasClass(largeScreen)){
+                $(this).removeClass(largeScreen).addClass(mediumScreen);
+            }
+             if($(this).hasClass(smallScreen)){
+                $(this).removeClass(smallScreen).addClass(mediumScreen);
+            }
+        } else if(viewportWidth < 767){
+            if($(this).hasClass(largeScreen)){
+                $(this).removeClass(largeScreen).addClass(smallScreen);
+            } else if($(this).hasClass(mediumScreen)){
+                 $(this).removeClass(mediumScreen).addClass(smallScreen);
+            }
+        } else {
+            if($(this).hasClass(smallScreen)){
+                $(this).addClass(largeScreen).removeClass(mediumScreen);
+            }
+            if($(this).hasClass(smallScreen)){
+                $(this).addClass(largeScreen).removeClass(mediumScreen);
             }
         }
     });
