@@ -9,6 +9,18 @@
          src: url('Fonts/CaviarDreams.ttf');
      }
 
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
     .nav.navbar-nav li a{
         color: White;
         font-size: 14pt;
@@ -67,7 +79,7 @@
     .PT{
         position: absolute;
         background: none;
-        width: 100%;
+        width: 97%;
         height: 100%;
         background-image: url(Images/PTBackgroundNew.png);
         background-size: 100%;
@@ -164,7 +176,7 @@
 .footer {
     position: absolute;
     top: 120%;
-    width: 100%;
+    width: 102.5%;
     height: 13%;
     background-color: rgba(35, 35, 50, 1.0);
 }
