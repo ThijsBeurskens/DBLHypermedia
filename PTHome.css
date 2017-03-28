@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px){
+@media screen and (min-width: 1px){
     *{
          box-sizing: border-box;
          font-family: "Cambria";
@@ -10,23 +10,19 @@
      }
 
     .nav.navbar-nav li a{
+
          color: White;
          font-size: 14pt;
          font-family: "CaviarDreams";
     }
 
+
+
     .nav.navbar-nav li input {
         width: 25px;
-        height: 25px;
-        margin-top: 14px;
-        margin-left: 11px;
-        margin-right: 14px;
-    }
-
-    .jj:hover{ /*hover for search icon*/
-        width: 50px;
-        height: 50px;
-        background-color: rgba(255,255,255, 0.5);
+        height: 18px;
+        margin-right: 0px;
+        margin-left: 1px;
     }
 
     .navbar-brand a{
@@ -43,13 +39,16 @@
         background-color: rgba(255,255,255, 0.5);
         font-size: 14pt;
     }
+    .header{
+        background-color: rgb(34, 142, 189);
+    }
     .hid{
         float: right;
         background-color: rgb(0, 205, 255);
-        border: none;
         height: 25px;
-        font-size: 12pt;
+        border: none;
     }
+
     .backToBachelor{
         background-color: rgb(0, 205, 255);
         height: 25px;
@@ -101,7 +100,6 @@
         padding-bottom: 80pt;
     }
     .vertical-menu a {
-        color: black;
         display: block;
         padding: 5px;
         text-decoration: none;
@@ -134,17 +132,19 @@
         font-size: 20pt;
         width: 100pt;
     }
-    .vertical-menu a:hover{
-        text-decoration: underline;
-    }
     .vertical-menu a.active{
         color: rgb(0, 204, 255);
     }
     .main{
         font-weight: bold;
+        color: black;
+    }
+    .main:hover{
+        color: black;
+        text-decoration: underline;
     }
     .information{
-        margin-top: 80pt;
+        margin-top: 120pt;
     }
     .closebtn {
         font-size: 36pt;
@@ -160,12 +160,25 @@
     p{
         font-size: 14pt;
     }
-    .contact-button{
-    float: right;
-    }
     #maintext{
         transition: 1s;
-        margin-left: 40pt;
+        margin-left: 5%;
+    }
+    .contact{
+        margin-top: 10pt;
+        font-weight: bold;
+        color: rgb(206, 39, 90);
+    }
+    .contact:hover{
+        color: rgb(206, 39, 90);
+        text-decoration: underline;
+    }
+    .sub{
+        color: black;
+    }
+    .sub:hover{
+        color: black;
+        text-decoration: underline;
     }
 }
 
@@ -175,6 +188,7 @@ h1, h2: font-size: 23p;
 p: font-size: 12pt?
 curriculum picture: width:height: 100(?)%;
 maintext: margin-left: 0
+information: margin-top: 80pt;
 */
 
 
