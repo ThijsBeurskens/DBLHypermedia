@@ -9,6 +9,18 @@
          src: url('Fonts/CaviarDreams.ttf');
      }
 
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
     .nav.navbar-nav li a{
 
          color: White;
@@ -73,7 +85,7 @@
     .PT{
         position: absolute;
         background: none;
-        width: 100%;
+        width: 97%;
         height: 100%;
         background-image: url(Images/PTBackgroundNew.png);
         background-size: 100%;
@@ -180,6 +192,38 @@
         color: black;
         text-decoration: underline;
     }
+}
+
+.footer {
+    position: absolute;
+    top: 120%;
+    width: 102.5%;
+    height: 13%;
+    background-color: rgba(35, 35, 50, 1.0);
+}
+
+.ft1 {
+    color: white;
+    display: block;
+    margin: 3px;
+    margin-top: 0px;
+    margin-left: 30px;
+    align-content: center;
+}
+
+lif {
+    float: right;
+    margin: px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border-radius: 100%;
+    position: relative;
+    display: block;
+    padding: 10px;
+}
+
+lif:hover { /*hover for social media icons in footer*/
+    background-color: rgba(200, 200, 200, 0.5);
 }
 
 
