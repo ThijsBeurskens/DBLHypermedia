@@ -1,4 +1,4 @@
-@media screen and (min-width: 1px){
+@media screen and (min-width: 600px){
     *{
          box-sizing: border-box;
          font-family: "Cambria";
@@ -12,6 +12,7 @@
     .nav.navbar-nav li a{
          color: White;
          font-size: 14pt;
+         font-family: "CaviarDreams";
     }
 
     .nav.navbar-nav li input {
@@ -32,6 +33,7 @@
         color: White;
     }
     .navbar{
+        font-family: "CaviarDreams";
         background-color: rgba(35, 35, 50, 0.9);
         position: fixed;
         margin-bottom: 0;
@@ -76,6 +78,7 @@
         height: 100%;
         background-image: url(Images/PTBackgroundNew.png);
         background-size: 100%;
+        background-repeat: False;
     }
     .title{
         float: right;
@@ -141,7 +144,7 @@
         font-weight: bold;
     }
     .information{
-        margin-top: 140pt;
+        margin-top: 80pt;
     }
     .closebtn {
         font-size: 36pt;
