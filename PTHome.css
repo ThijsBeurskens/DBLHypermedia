@@ -9,29 +9,35 @@
          src: url('Fonts/CaviarDreams.ttf');
      }
 
+     html{
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
     .nav.navbar-nav li a{
+
          color: White;
          font-size: 14pt;
+         font-family: "CaviarDreams";
     }
+
+
 
     .nav.navbar-nav li input {
         width: 25px;
-        height: 25px;
-        margin-top: 14px;
-        margin-left: 11px;
-        margin-right: 14px;
-    }
-
-    .jj:hover{ /*hover for search icon*/
-        width: 50px;
-        height: 50px;
-        background-color: rgba(255,255,255, 0.5);
+        height: 18px;
+        margin-right: 0px;
+        margin-left: 1px;
     }
 
     .navbar-brand a{
         color: White;
     }
     .navbar{
+        font-family: "CaviarDreams";
         background-color: rgba(35, 35, 50, 0.9);
         position: fixed;
         margin-bottom: 0;
@@ -41,13 +47,16 @@
         background-color: rgba(255,255,255, 0.5);
         font-size: 14pt;
     }
+    .header{
+        background-color: rgb(34, 142, 189);
+    }
     .hid{
         float: right;
         background-color: rgb(0, 205, 255);
-        border: none;
         height: 25px;
-        font-size: 12pt;
+        border: none;
     }
+
     .backToBachelor{
         background-color: rgb(0, 205, 255);
         height: 25px;
@@ -72,11 +81,11 @@
     .PT{
         position: absolute;
         background: none;
-        width: 100%;
+        width: 97%;
         height: 100%;
         background-image: url(Images/PTBackgroundNew.png);
         background-size: 100%;
-        background-repeat: no-repeat;
+        background-repeat: False;
     }
     .title{
         float: right;
@@ -99,7 +108,6 @@
         padding-bottom: 80pt;
     }
     .vertical-menu a {
-        color: black;
         display: block;
         padding: 5px;
         text-decoration: none;
@@ -132,17 +140,19 @@
         font-size: 20pt;
         width: 100pt;
     }
-    .vertical-menu a:hover{
-        text-decoration: underline;
-    }
     .vertical-menu a.active{
         color: rgb(0, 204, 255);
     }
     .main{
         font-weight: bold;
+        color: black;
+    }
+    .main:hover{
+        color: black;
+        text-decoration: underline;
     }
     .information{
-        margin-top: 140pt;
+        margin-top: 120pt;
     }
     .closebtn {
         font-size: 36pt;
@@ -158,13 +168,58 @@
     p{
         font-size: 14pt;
     }
-    .contact-button{
-    float: right;
-    }
     #maintext{
         transition: 1s;
-        margin-left: 40pt;
+        margin-left: 5%;
     }
+    .contact{
+        margin-top: 10pt;
+        font-weight: bold;
+        color: rgb(206, 39, 90);
+    }
+    .contact:hover{
+        color: rgb(206, 39, 90);
+        text-decoration: underline;
+    }
+    .sub{
+        color: black;
+    }
+    .sub:hover{
+        color: black;
+        text-decoration: underline;
+    }
+}
+
+.footer {
+    position: absolute;
+    top: 120%;
+    width: 102.5%;
+    height: 13%;
+    background-color: rgba(35, 35, 50, 1.0);
+}
+
+.ft1 {
+    color: white;
+    display: block;
+    margin: 3px;
+    margin-top: 0px;
+    margin-left: 30px;
+    align-content: center;
+}
+
+lif {
+    float: right;
+    margin: px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border-radius: 100%;
+    position: relative;
+    display: block;
+    padding: 10px;
+}
+
+lif:hover { /*hover for social media icons in footer*/
+    background-color: rgba(200, 200, 200, 0.5);
 }
 
 
@@ -173,6 +228,7 @@ h1, h2: font-size: 23p;
 p: font-size: 12pt?
 curriculum picture: width:height: 100(?)%;
 maintext: margin-left: 0
+information: margin-top: 80pt;
 */
 
 
