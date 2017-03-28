@@ -3,7 +3,12 @@ $(function() {
        var target = $(this);
        var id = target.attr('target');
        var img = target.attr('src');
-       document.getElementById(id).src=img;
+       var viewportWidth = $(window).width();
+       if (viewportWidth > 600){
+           document.getElementById(id).src=img;
+       } else {
+           document.getElementById(id).src="Images/none.png";
+       }
    },
    function(){
        var target = $(this);
