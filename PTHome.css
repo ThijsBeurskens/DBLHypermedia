@@ -1,7 +1,7 @@
 @media screen and (min-width: 1px){
     *{
          box-sizing: border-box;
-         font-family: "Cambria";
+         font-family: 'Open Sans', sans-serif;
         }
 
     @font-face {
