@@ -24,8 +24,6 @@
          font-family: "CaviarDreams";
     }
 
-
-
     .nav.navbar-nav li input {
         width: 25px;
         height: 18px;
@@ -78,34 +76,16 @@
     .myClassName a:hover{
         text-decoration: none;
     }
-    .PT{
-        position: absolute;
-        background: none;
-        width: 97%;
-        height: 100%;
-        background-image: url(Images/PTBackgroundNew.png);
-        background-size: 100%;
-        background-repeat: False;
-    }
     .title{
-        float: right;
-        width: 100%;
-        margin-right: 15%
-    }
-    .subtitle{
-        float: right;
-        width: 100%;
     }
     h1, h2{
-        float: right;
         font-weight: bold;
         color: darkblue;
-        size:
     }
     .vertical-menu {
         width: 200px;
-        margin-left: 50pt;
-        padding-bottom: 80pt;
+        margin-left: 10pt;
+        padding-bottom: 50pt;
     }
     .vertical-menu a {
         display: block;
@@ -121,15 +101,18 @@
         left: 0;
         overflow-x: hidden;
         transition: 1s;
-        }
+        padding-bottom: 50pt;
+        position: absolute;
+    }
     #sideMenu a{
         color: black;
-        background-color: lightgrey;
+        background-color: white;
         display: block;
-        padding: 5px;
+        padding-top: 10px;
         text-decoration: none;
         font-size: 13pt;
         width: 100pt;
+        margin-left: 5px;
     }
 
     .closebtn {
@@ -151,9 +134,6 @@
         color: black;
         text-decoration: underline;
     }
-    .information{
-        margin-top: 120pt;
-    }
     .closebtn {
         font-size: 36pt;
         margin-left: 70pt;
@@ -170,7 +150,6 @@
     }
     #maintext{
         transition: 1s;
-        margin-left: 5%;
     }
     .contact{
         margin-top: 10pt;
@@ -187,6 +166,24 @@
     .sub:hover{
         color: black;
         text-decoration: underline;
+    }
+    .redline{
+        background-color: rgb(206, 39, 90);
+        height:1.5pt;
+    }
+    .verticalredline{
+        border-left-color: rgb(206, 39, 90);
+        border-left-width: 2.1pt;
+        color: white;
+    }
+    .uniquepage{
+        margin-top: 10pt;
+    }
+    .menu{
+        width: 150px;
+    }
+    .tab{
+        position: absolute;
     }
 }
 
@@ -223,12 +220,14 @@ lif:hover { /*hover for social media icons in footer*/
 }
 
 
+
 /*Add to small size:
 h1, h2: font-size: 23p;
 p: font-size: 12pt?
 curriculum picture: width:height: 100(?)%;
-maintext: margin-left: 0
+maintext: margin-left: 0pt;
 information: margin-top: 80pt;
+redline: margin-left: 0pt;
 */
 
 
