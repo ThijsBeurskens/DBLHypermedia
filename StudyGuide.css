@@ -81,12 +81,8 @@ h5{
     background: none;
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
     background-image: url(Images/HomePicture.png);
-=======
-    background-image: url(Images/TUe-dark.png);
     background-position: left center;
->>>>>>> origin/master
     background-size: cover;
     z-index: 3;
 }
