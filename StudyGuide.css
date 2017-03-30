@@ -120,34 +120,6 @@ h5{
     z-index: 2;
 }
 
-.footer {
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    height: 13%;
-    background-color: rgba(35, 35, 50, 1.0);
-}
-
-.ft1 {
-    color: white;
-    display: block;
-    margin: 3px;
-    margin-top: 0px;
-    margin-left: 30px;
-    align-content: center;
-}
-
-lif {
-    float: right;
-    margin: px;
-    margin-top: 30px;
-    margin-right: 20px;
-    border-radius: 100%;
-    position: relative;
-    display: block;
-    padding: 10px;
-}
-
 .logo{
     margin-right: 10pt;
     width: 60px;
@@ -258,7 +230,32 @@ dd{
     z-index: 2;
 }
 
-lif:hover { /*hover for social media icons in footer*/
+.footer {
+    z-index: 999;
+    position: absolute;
+    top: 460%;
+    width: 100%;
+    background-color: rgba(35, 35, 50, 1.0);
+}
+
+.ft1 {
+    color: white;
+    display: block;
+    margin: 3px;
+    margin-top: 0px;
+    margin-left: 30px;
+    align-content: center;
+}
+
+.lif {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 100%;
+    position: relative;
+    display: block;
+    padding: 10px;
+}
+.lif:hover { /*hover for social media icons in footer*/
     background-color: rgba(200, 200, 200, 0.5);
 }
 
