@@ -178,9 +178,19 @@ lif {
     z-index: 999;
     white-space: normal !important;
     word-wrap: break-word;
-    padding-top: 14px;
-    padding-bottom: 14px;
     font-size: 17px;
+}
+
+.bachelorbuts{
+    height: 45px;
+}
+
+.premasterbuts{
+    height: 45px;
+}
+
+.masterbuts{
+  height: 45px;
 }
 
 .right{
