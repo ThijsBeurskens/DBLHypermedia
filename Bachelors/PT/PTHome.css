@@ -6,7 +6,7 @@
 
     @font-face {
          font-family: 'CaviarDreams';
-         src: url('Fonts/CaviarDreams.ttf');
+         src: url('../../Fonts/CaviarDreams.ttf');
      }
 
      html{
@@ -221,7 +221,7 @@
 
     @font-face {
          font-family: 'CaviarDreams';
-         src: url('Fonts/CaviarDreams.ttf');
+         src: url('../../Fonts/CaviarDreams.ttf');
      }
 
      html{
