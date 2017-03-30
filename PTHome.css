@@ -77,19 +77,10 @@
         text-decoration: none;
     }
     .title{
-        float: right;
-        width: 100%;
-        margin-right: 30%
-    }
-    .subtitle{
-        float: right;
-        width: 100%;
     }
     h1, h2{
-        float: right;
         font-weight: bold;
         color: darkblue;
-        size:
     }
     .vertical-menu {
         width: 200px;
@@ -111,15 +102,17 @@
         overflow-x: hidden;
         transition: 1s;
         padding-bottom: 50pt;
-        }
+        position: absolute;
+    }
     #sideMenu a{
         color: black;
-        background-color: lightgrey;
+        background-color: white;
         display: block;
         padding-top: 10px;
         text-decoration: none;
         font-size: 13pt;
         width: 100pt;
+        margin-left: 5px;
     }
 
     .closebtn {
@@ -157,8 +150,6 @@
     }
     #maintext{
         transition: 1s;
-        margin-left: 5%;
-        width: 10;
     }
     .contact{
         margin-top: 10pt;
@@ -177,16 +168,22 @@
         text-decoration: underline;
     }
     .redline{
-        margin-top: 10pt;
-        margin-left: 50pt;
-        float: right;
-        width: 100%;
         background-color: rgb(206, 39, 90);
         height:1.5pt;
     }
+    .verticalredline{
+        border-left-color: rgb(206, 39, 90);
+        border-left-width: 2.1pt;
+        color: white;
+    }
+    .uniquepage{
+        margin-top: 10pt;
+    }
     .menu{
-        margin-top: 80pt;
-        position: relative;
+        width: 150px;
+    }
+    .tab{
+        position: absolute;
     }
 }
 
