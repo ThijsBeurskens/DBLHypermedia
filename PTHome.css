@@ -30,9 +30,8 @@
         margin-right: 0px;
         margin-left: 1px;
     }
-
-    .navbar-brand a{
-        color: White;
+    .navbar-inverse .navbar-brand{
+        font-family: "CaviarDreams";
     }
     .navbar{
         font-family: "CaviarDreams";
@@ -49,6 +48,7 @@
         background-color: rgb(34, 142, 189);
     }
     .hid{
+        font-family: "CaviarDreams";
         float: right;
         background-color: rgb(0, 205, 255);
         height: 25px;
@@ -68,6 +68,7 @@
         padding: 0pt;
     }
     .myClassName a{
+        font-family: "CaviarDreams";
         color: White;
         font-weight: bold;
         font-size: 13pt;
@@ -88,6 +89,7 @@
         padding-bottom: 50pt;
     }
     .vertical-menu a {
+        font-family: "CaviarDreams";
         display: block;
         padding: 5px;
         text-decoration: none;
