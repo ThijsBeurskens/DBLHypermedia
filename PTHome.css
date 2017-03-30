@@ -30,10 +30,10 @@
         margin-right: 0px;
         margin-left: 1px;
     }
-
-    .navbar-brand a{
-        color: White;
+    .navbar-inverse .navbar-brand{
+        color: white;
     }
+
     .navbar{
         font-family: "CaviarDreams";
         background-color: rgba(35, 35, 50, 0.9);
@@ -204,17 +204,15 @@
     align-content: center;
 }
 
-lif {
-    float: right;
-    margin-top: 30px;
-    margin-right: 30px;
+.lif {
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-radius: 100%;
     position: relative;
     display: block;
     padding: 10px;
 }
-
-lif:hover { /*hover for social media icons in footer*/
+.lif:hover { /*hover for social media icons in footer*/
     background-color: rgba(200, 200, 200, 0.5);
 }
 
