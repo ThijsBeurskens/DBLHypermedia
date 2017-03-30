@@ -65,7 +65,7 @@ li2{
 h5{
     color: white;
     position: relative;
-    font-size: 4vw;
+    font-size:calc(20.0px + 2.0vw);
 }
 
 .bachelor_image{
