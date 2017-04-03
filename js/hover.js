@@ -1,7 +1,7 @@
 $(function() {
    $('.hover').hover( function(){
        var target = $(this);
-       var id = target.attr('target');
+       var id = target.attr('picture');
        var img = target.attr('src');
        var viewportWidth = $(window).width();
        if (viewportWidth > 767){
@@ -12,7 +12,7 @@ $(function() {
    },
    function(){
        var target = $(this);
-       var id = target.attr('target');
+       var id = target.attr('picture');
        document.getElementById(id).src="Images/none.png";
    });
 });
