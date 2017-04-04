@@ -1,4 +1,4 @@
-$(document).on('ready, resize', function mobileViewUpdate() {
+$(window).on('load resize pageshow', function mobileViewUpdate() {
     var viewportWidth = $(window).width();
     var viewportHeight = $(window).height();
     var page1 = $(".page1");
