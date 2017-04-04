@@ -92,6 +92,11 @@ h2{
     font-size: 17pt;
 }
 
+h3{
+    font-size:15pt;
+    color:darkblue;
+}
+
 .vertical-menu {
     width: 200px;
     margin-left: 10pt;
