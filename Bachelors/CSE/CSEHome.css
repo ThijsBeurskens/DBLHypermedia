@@ -164,9 +164,6 @@ h2{
     text-decoration: none;
 }
 
-p{
-    font-size: 14pt;
-}
 
 #maintext{
     transition: 1s;
@@ -249,9 +246,11 @@ p{
     align-content: center;
 }
 p{
-    font-size: 14pt;
+    font-size: 12pt;
 }
-
+li{
+    font-size: 12pt;
+}
 
 @media all and (max-width: 760px){
     .footer{

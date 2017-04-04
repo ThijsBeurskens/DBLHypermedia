@@ -164,10 +164,6 @@ h2{
     text-decoration: none;
 }
 
-p{
-    font-size: 14pt;
-}
-
 #maintext{
     transition: 1s;
 }
@@ -248,8 +244,13 @@ p{
     margin-left: 30px;
     align-content: center;
 }
+
 p{
-    font-size: 14pt;
+    font-size: 12pt;
+}
+
+li{
+    font-size: 12pt;
 }
 
 
