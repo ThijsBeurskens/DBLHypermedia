@@ -52,13 +52,13 @@ html{
 .hid{
     font-family: "CaviarDreams";
     float: right;
-    background-color: darkgreen;
+    background-color: darkred;
     height: 25px;
     border: none;
 }
 
 .backToBachelor{
-    background-color: darkgreen;
+    background-color: darkred;
     height: 25px;
 }
 
