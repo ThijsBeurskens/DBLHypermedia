@@ -83,9 +83,13 @@ html{
     text-decoration: none;
 }
 
-h1, h2{
+h1, h2, h3{
     font-weight: bold;
     color: darkblue;
+}
+
+h3{
+    font-size:
 }
 
 .vertical-menu {
@@ -161,6 +165,10 @@ h1, h2{
 }
 
 p{
+    font-size: 14pt;
+}
+
+li{
     font-size: 14pt;
 }
 
