@@ -92,6 +92,11 @@ h2{
     font-size: 17pt;
 }
 
+h3{
+    font-size:15pt;
+    color:darkblue;
+}
+
 .vertical-menu {
     width: 200px;
     margin-left: 10pt;
@@ -162,10 +167,6 @@ h2{
 .closebtn:hover{
     color: black;
     text-decoration: none;
-}
-
-p{
-    font-size: 14pt;
 }
 
 #maintext{
@@ -249,9 +250,11 @@ p{
     align-content: center;
 }
 p{
-    font-size: 14pt;
+    font-size: 12pt;
 }
-
+li{
+    font-size: 12pt;
+}
 
 @media all and (max-width: 760px){
     .footer{
