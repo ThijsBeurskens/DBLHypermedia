@@ -177,6 +177,20 @@ p{
 li{
     font-size: 14pt;
 }
+li a{
+    font-size: 14pt;
+    color: black;
+}
+a{
+    font-size: 14pt;
+    color: black;
+}
+li a:hover{
+    color: darkred;
+}
+a:hover{
+    color: darkred;
+}
 
 #maintext{
     transition: 1s;
