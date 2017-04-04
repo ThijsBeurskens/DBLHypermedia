@@ -92,6 +92,11 @@ h2{
     font-size: 17pt;
 }
 
+h3{
+    font-size:15pt;
+    color:darkblue;
+}
+
 .vertical-menu {
     width: 200px;
     margin-left: 10pt;
@@ -257,3 +262,28 @@ li{
         margin-top: 160pt;
     }
 }
+
+  .panel-heading [data-toggle="collapse"]:after {
+        content: ">"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
+
