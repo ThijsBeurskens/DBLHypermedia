@@ -244,7 +244,7 @@ p{
     margin-left: 30px;
     align-content: center;
 }
-
+p{font-size: 14px}
 
 @media all and (max-width: 760px){
     .footer{
