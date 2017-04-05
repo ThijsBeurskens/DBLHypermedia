@@ -262,7 +262,10 @@ li{
     align-content: center;
 }
 p{
-    font-size: 12pt;
+    font-size: 14pt;
+}
+li{
+    font-size: 14pt;
 }
 
 
