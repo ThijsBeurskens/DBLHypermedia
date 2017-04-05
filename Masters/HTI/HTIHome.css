@@ -52,13 +52,16 @@ html{
 .hid{
     font-family: "CaviarDreams";
     float: right;
-    background-color: rgb(0, 205, 255);
+    background-color: darkred;
     height: 25px;
     border: none;
 }
+.hid:hover{
+    background-color: darkred;
+}
 
 .backToBachelor{
-    background-color: rgb(0, 205, 255);
+    background-color: darkred;
     height: 25px;
 }
 
@@ -135,7 +138,7 @@ h1, h2{
 }
 
 .vertical-menu a.active{
-    color: rgb(0, 204, 255);
+    color: darkred;
 }
 
 .main{
@@ -164,8 +167,6 @@ p{
     font-size: 14pt;
 }
 
-<<<<<<< HEAD
-=======
 li{
     font-size: 14pt;
 }
