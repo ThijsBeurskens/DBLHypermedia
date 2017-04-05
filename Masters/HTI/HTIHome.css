@@ -52,13 +52,13 @@ html{
 .hid{
     font-family: "CaviarDreams";
     float: right;
-    background-color: darkred;
+    background-color: rgb(0, 205, 255);
     height: 25px;
     border: none;
 }
 
 .backToBachelor{
-    background-color: darkred;
+    background-color: rgb(0, 205, 255);
     height: 25px;
 }
 
@@ -83,18 +83,8 @@ html{
     text-decoration: none;
 }
 
-
-h1{
+h1, h2{
     font-weight: bold;
-    color: darkblue;
-}
-h2{
-    color: darkblue;
-    font-size: 17pt;
-}
-
-h3{
-    font-size: 15pt;
     color: darkblue;
 }
 
@@ -145,7 +135,7 @@ h3{
 }
 
 .vertical-menu a.active{
-    color: darkred;
+    color: rgb(0, 204, 255);
 }
 
 .main{
@@ -171,10 +161,6 @@ h3{
 }
 
 p{
-    font-size: 14pt;
-}
-
-li{
     font-size: 14pt;
 }
 
@@ -230,7 +216,7 @@ li{
 }
 
 .footer {
-    position: inherit;
+    position: relative;
     top: 100%;
     width: 100%;
     height: 13%;
@@ -259,37 +245,13 @@ li{
     align-content: center;
 }
 p{
-    font-size: 14pt;
+    font-size: 12pt;
 }
-
-
+li{
+    font-size: 12pt;
+}
 @media all and (max-width: 760px){
     .footer{
         margin-top: 160pt;
     }
 }
-
-  .panel-heading [data-toggle="collapse"]:after {
-        content: ">"; /* "play" icon */
-        float: right;
-        color: #F58723;
-        font-size: 18px;
-        line-height: 22px;
-        /* rotate "play" icon from > (right arrow) to down arrow */
-        -webkit-transform: rotate(-90deg);
-        -moz-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        -o-transform: rotate(-90deg);
-        transform: rotate(-90deg);
-    }
-
-    .panel-heading [data-toggle="collapse"].collapsed:after {
-        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        transform: rotate(90deg);
-        color: #454444;
-    }
-
