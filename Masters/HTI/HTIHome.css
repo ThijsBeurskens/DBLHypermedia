@@ -86,10 +86,21 @@ html{
     text-decoration: none;
 }
 
-h1, h2{
+h1{
     font-weight: bold;
     color: darkblue;
 }
+
+h2{
+    color: darkblue;
+    font-size: 17pt;
+}
+
+h3{
+    font-size: 15pt;
+    color: darkblue;
+}
+
 
 .vertical-menu {
     width: 200px;
@@ -185,7 +196,6 @@ a:hover{
     color: darkred;
 }
 
->>>>>>> origin/master
 #maintext{
     transition: 1s;
 }
