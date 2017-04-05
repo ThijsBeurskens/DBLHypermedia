@@ -57,6 +57,9 @@ html{
     border: none;
 }
 
+.hid{
+    background-color: darkgreen;
+}
 .backToBachelor{
     background-color: darkgreen;
     height: 25px;
@@ -87,9 +90,15 @@ h1{
     font-weight: bold;
     color: darkblue;
 }
+
 h2{
     color: darkblue;
     font-size: 17pt;
+}
+
+h3{
+    font-size: 15pt;
+    color: darkblue;
 }
 
 .vertical-menu {
