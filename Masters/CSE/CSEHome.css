@@ -56,6 +56,9 @@ html{
     height: 25px;
     border: none;
 }
+.hid:hover{
+    color: darkred;
+}
 
 .backToBachelor{
     background-color: darkred;
@@ -87,9 +90,15 @@ h1{
     font-weight: bold;
     color: darkblue;
 }
+
 h2{
     color: darkblue;
     font-size: 17pt;
+}
+
+h3{
+    font-size: 15pt;
+    color: darkblue;
 }
 
 .vertical-menu {
@@ -238,6 +247,10 @@ p{
 
 .lif:hover { /*hover for social media icons in footer*/
     background-color: rgba(200, 200, 200, 0.5);
+}
+
+li{
+    14pt;
 }
 
 .ft1 {
