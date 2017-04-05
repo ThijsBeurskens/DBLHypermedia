@@ -57,6 +57,9 @@ html{
     border: none;
 }
 
+.hid{
+    background-color: darkgreen;
+}
 .backToBachelor{
     background-color: darkgreen;
     height: 25px;

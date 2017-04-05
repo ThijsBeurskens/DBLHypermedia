@@ -56,6 +56,9 @@ html{
     height: 25px;
     border: none;
 }
+.hid:hover{
+    color: darkred;
+}
 
 .backToBachelor{
     background-color: darkred;
