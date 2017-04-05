@@ -164,6 +164,27 @@ p{
     font-size: 14pt;
 }
 
+<<<<<<< HEAD
+=======
+li{
+    font-size: 14pt;
+}
+li a{
+    font-size: 14pt;
+    color: black;
+}
+a{
+    font-size: 14pt;
+    color: black;
+}
+li a:hover{
+    color: darkred;
+}
+a:hover{
+    color: darkred;
+}
+
+>>>>>>> origin/master
 #maintext{
     transition: 1s;
 }
