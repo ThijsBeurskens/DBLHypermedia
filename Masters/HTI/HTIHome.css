@@ -11,8 +11,6 @@
 html{
     height: 100%;
     width: 100%;
-    min-height: 100%;
-    position: relative;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -251,13 +249,9 @@ a:hover{
 }
 
 .footer {
-    background-color: rgba(35, 35, 50, 1.0);
     position: absolute;
-    height: 100%;
-    overflow:hidden;
-    right: 0;
-    left: 0;
-    padding: 1rem;
+    width: 100%;
+    background-color: rgba(35, 35, 50, 1.0);
 }
 
 .lif {
