@@ -325,3 +325,15 @@ li{
     transform: rotate(90deg);
     color: #454444;
 }
+
+.JvR:focus{
+    background-color: darkred;
+}
+
+JvR:hover{
+    background-color: darkred;
+}
+
+JvR:onclick{
+    background-color: darkred;
+}

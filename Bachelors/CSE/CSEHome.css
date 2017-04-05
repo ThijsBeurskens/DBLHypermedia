@@ -306,3 +306,14 @@ li{
         color: #454444;
     }
 
+.JvR:focus{
+    background-color: darkblue;
+}
+
+JvR:hover{
+    background-color: darkblue;
+}
+
+JvR:onclick{
+    background-color: darkblue;
+}
