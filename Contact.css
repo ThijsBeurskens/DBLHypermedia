@@ -218,9 +218,12 @@ p{
 .footer {
     position: relative;
     top: 100%;
-    width: 100%;
+    width: 104%;
     height: 13%;
     background-color: rgba(35, 35, 50, 1.0);
+    object-position: center;
+    left: -2%;
+
 }
 
 .lif {
