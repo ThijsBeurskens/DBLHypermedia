@@ -272,6 +272,15 @@ p{
     }
 }
 
+@media all and (max-width: 790px){
+    .nav.navbar-nav li a{
+        color: white;
+        font-size: 13pt;
+        font-family: "CaviarDreams";
+    }
+}
+
+
   .panel-heading [data-toggle="collapse"]:after {
         content: ">"; /* "play" icon */
         float: right;
